@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="805FB6D2-9FD4-FE67-15EF-B6E77D2294C0" name="Viajes">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Planetas_Codigo" id="C996C40C-A689-92C5-FB04-DE204F82A619">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97F8ECBD-23BE-782F-65BF-906BA2F39BC5" referredColumn="55F9291E-9A9C-F59E-C25B-A51351770647"/>
+</associations>
+</Column>
+<Column name="Nave_Codigo" id="FB0A0762-EBF9-1804-A85A-862CE7985B4A">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1072D3DF-0B36-FAA8-004F-1CA3E84CB05F" referredColumn="D0485367-03E6-F866-7901-EE0BEB9FF0E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8E5ECDC-70FA-D3A8-11E0-ADF66AB28F16" name="Viajes_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C996C40C-A689-92C5-FB04-DE204F82A619"/>
+<colUsage columnID="FB0A0762-EBF9-1804-A85A-862CE7985B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EDCE462-E711-68A6-5A6A-38E17A3E46D3" name="FK_ASS_33">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>3C8D4B25-F6A9-6294-1054-D263F2B76B3E</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C996C40C-A689-92C5-FB04-DE204F82A619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB9E2F79-11FE-7B46-43D7-92F2D64C9E67" name="FK_ASS_34">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>3C8D4B25-F6A9-6294-1054-D263F2B76B3E</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB0A0762-EBF9-1804-A85A-862CE7985B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E8C76C8-A563-6A40-BEE0-FE755338DFE9" name="Klingon">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>D933AAD3-D2EB-AFCF-8F51-B481E7D577C2</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre" id="3B8B7BD6-699B-B5C5-E92C-31708B656A46">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>29EBDF36-4DA7-5DAF-8DED-9DE152869896</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2F55AA7-9774-F6B8-10D3-64675E64882D" referredColumn="49DB9C04-BA24-3ACE-9C70-0EE22F89EAE9"/>
+</associations>
+</Column>
+<Column name="Planeta_natal" id="B4E8141F-FF83-1625-9078-871320301E1C">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>B6040FCB-2983-0ADC-678E-52FB2F4B682E</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_Ultimo_Combate" id="CD6A5665-81FE-0CD0-88FD-58B17718A84A">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>9B6D0159-475D-3F80-D561-061F623067B6</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="203C8566-2D09-9750-F187-D3253F0C763A" name="Klingon_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>6CDD6DF5-1E29-24F5-E6B7-9B1D249FA253</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B8B7BD6-699B-B5C5-E92C-31708B656A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC345840-3428-4264-0944-4C9E0971E0F1" name="Klingon_Personajes_FK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>DACA12A8-BF4B-2CC0-31AA-9A90BA95B23D</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B8B7BD6-699B-B5C5-E92C-31708B656A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

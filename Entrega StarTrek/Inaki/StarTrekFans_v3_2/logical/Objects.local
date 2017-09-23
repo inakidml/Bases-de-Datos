@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="EF5F81E7-EB13-504F-5E44-4C54FF975EE5" name="Actores" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AF595D73-2155-D68D-3B19-6D1E2B644AE4" name="Capitulos" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D29B8352-EF02-1770-301C-085C452234A8" name="Humano" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D933AAD3-D2EB-AFCF-8F51-B481E7D577C2" name="Klingon" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3592C5B7-E429-400D-89B6-8381A155EEFF" name="Lanzadera" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B834AD81-1910-978F-19B0-95127853AD3F" name="Nacionalidad" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AFB4FB6D-19A2-A7E6-3F55-E6CE2D20C814" name="Nave" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9C2D6C2D-81C7-B789-6307-F3CB9C898300" name="Peliculas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D126EDA7-C146-D617-6D1A-0AC7CE36661A" name="Personajes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D08B2B2F-2ECA-E09B-8A25-241A70B71C50" name="Planetas" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3CBFD4E0-9641-A450-C1C5-C84EDF41579E" name="Vulcano" seqName="seg_0"/>
+   <object objectType="Relation" objectID="504DD461-D880-EA71-2DBD-52979A561E42" name="Aparece" seqName="seg_0"/>
+   <object objectType="Relation" objectID="18F4B595-6E8F-5844-F959-A055D304EB53" name="Depende de &amp;quot;&amp;quot; en graduaciÃ³n militar" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9523C0E8-A986-FA38-3A7E-73EB3FD2084A" name="Es" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DA8ACFBC-8AEF-86A2-25C7-C400DCB46071" name="Interpreta" seqName="seg_0"/>
+   <object objectType="Relation" objectID="47AAF504-4608-27D3-FFCE-BB50CA4D37F1" name="Participan" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E1A368EF-173E-C794-73A8-4967CF567B31" name="Tiene" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3C8D4B25-F6A9-6294-1054-D263F2B76B3E" name="Viajes" seqName="seg_0"/>
+   <object objectType="Relation" objectID="347552DF-1026-98D1-ED01-D505B4D0329F" name="Visita" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D34C69FA-FB15-325B-FD0C-E05C35A48BA5" name="es Protagonista" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="148B5DA7-74C6-54C2-E666-0683273DABED" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="DACA12A8-BF4B-2CC0-31AA-9A90BA95B23D" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="8851699D-50BE-0FA8-D706-7F3527B75072" name="Hierarchy_3" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

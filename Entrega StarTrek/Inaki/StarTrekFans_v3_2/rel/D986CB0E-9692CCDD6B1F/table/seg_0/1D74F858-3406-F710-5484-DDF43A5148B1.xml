@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D74F858-3406-F710-5484-DDF43A5148B1" name="Lanzadera">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>3592C5B7-E429-400D-89B6-8381A155EEFF</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numero_entero" id="BACB3BF9-EF74-A13F-A0C2-5FFB3ED684EC">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>8244DFE5-C467-9245-F0B8-7137AC039EDD</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad_personas" id="EE9042E9-BDDB-C7A7-3A5C-8AFF8BDDDEC8">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>E750D02F-74FB-CE10-5600-C473BFBC1E6E</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nave_Codigo" id="8A5320EF-6CA5-4A9D-2A28-0BEB5C407394">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>5561F7A1-4309-CC64-4A50-4182A8B86FB7</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6E346D0-35BC-5C8A-886E-6C02C7516DAD" referredColumn="D0485367-03E6-F866-7901-EE0BEB9FF0E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="640FDB19-FBE4-5C9D-F735-4BF4927D0259" name="Lanzadera_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>99937247-F932-3846-8B7C-B2C2E529A624</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BACB3BF9-EF74-A13F-A0C2-5FFB3ED684EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="544CACAE-8D55-C267-A5B3-0E5ED8742BF1" name="Lanzadera_Nave_FK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>E1A368EF-173E-C794-73A8-4967CF567B31</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5320EF-6CA5-4A9D-2A28-0BEB5C407394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="976EF8C5-1F16-C65D-31B1-E53750FE08CD" name="Actores">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>EF5F81E7-EB13-504F-5E44-4C54FF975EE5</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre_completo" id="7A60C7ED-8D5D-7F85-A7EB-036C29511A54">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>ECBBFCF1-505C-B75E-D6EE-BEE947A5AA06</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="06F6EDEB-2A45-0233-48D8-A55A788D24E7">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>6B8C335A-24D8-74E7-1615-EAA4D4B663A5</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Personajes_Nombre" id="64067ECB-50D9-1C44-0CFC-80C83D4ED724">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>9B47CDC3-4DDF-B27C-8A83-608587B879B9</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E1EB939-0BC3-8AEA-D54E-4A5FCC9D3F11" referredColumn="49DB9C04-BA24-3ACE-9C70-0EE22F89EAE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC3E5CFE-DE45-35E9-9305-B66EA56896E3" name="Actores_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>43D93F9E-4EF7-1D31-47CC-6FAB8A2B3324</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A60C7ED-8D5D-7F85-A7EB-036C29511A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="591FE254-1940-D3E5-2C3C-785285A656E4" name="Actores__IDX">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DA8ACFBC-8AEF-86A2-25C7-C400DCB46071</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="64067ECB-50D9-1C44-0CFC-80C83D4ED724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="079C6EBC-B120-E76D-AC89-4087B5ECB25D" name="Actores_Personajes_FK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 20:00:06 UTC</createdTime>
+<generatorID>DA8ACFBC-8AEF-86A2-25C7-C400DCB46071</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64067ECB-50D9-1C44-0CFC-80C83D4ED724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

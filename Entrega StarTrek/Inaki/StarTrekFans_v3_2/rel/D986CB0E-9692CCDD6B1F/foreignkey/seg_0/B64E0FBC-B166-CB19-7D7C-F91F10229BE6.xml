@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B64E0FBC-B166-CB19-7D7C-F91F10229BE6" containerWithKeyObject="A0926229-2A55-C944-4986-2A8EA1295EB5" localFKIndex="656F7158-0AEB-AF4A-C980-391EE66D81DD" name="FK_ASS_36">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>347552DF-1026-98D1-ED01-D505B4D0329F</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DCA0EF01-4BD7-A95B-303A-49DB1F9FBD72</referredTableID>
+<keyObject>75F8F256-0AC0-6671-040D-5F69C096C24B</keyObject>
+<referredKeyID>75F8F256-0AC0-6671-040D-5F69C096C24B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

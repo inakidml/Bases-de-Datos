@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0926229-2A55-C944-4986-2A8EA1295EB5" name="Visita">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Capitulos_Titulo" id="CC3B0CD3-2597-3AA3-CC0B-06AD5ED8E346">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="660C480C-0559-D7BF-58B4-FB5BF39D0D9A" referredColumn="45D317DC-2368-FA24-CF19-A57090FD93C2"/>
+</associations>
+</Column>
+<Column name="Planetas_Codigo" id="204FA643-2611-058C-86BD-6AE5203E5B63">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B64E0FBC-B166-CB19-7D7C-F91F10229BE6" referredColumn="55F9291E-9A9C-F59E-C25B-A51351770647"/>
+</associations>
+</Column>
+<Column name="Problema_a_resolver" id="5A5ED58D-CE9A-FC54-92FD-F0137EEFBA7A">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>3867439F-1743-1F80-9351-DEBE1A01324A</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90B53408-F629-73DB-B33E-9CCC08C02EAB" name="Visita_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3B0CD3-2597-3AA3-CC0B-06AD5ED8E346"/>
+<colUsage columnID="204FA643-2611-058C-86BD-6AE5203E5B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE767FA6-3EBC-BA45-3C31-4A71625B8824" name="FK_ASS_35">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>347552DF-1026-98D1-ED01-D505B4D0329F</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3B0CD3-2597-3AA3-CC0B-06AD5ED8E346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="656F7158-0AEB-AF4A-C980-391EE66D81DD" name="FK_ASS_36">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>347552DF-1026-98D1-ED01-D505B4D0329F</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="204FA643-2611-058C-86BD-6AE5203E5B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

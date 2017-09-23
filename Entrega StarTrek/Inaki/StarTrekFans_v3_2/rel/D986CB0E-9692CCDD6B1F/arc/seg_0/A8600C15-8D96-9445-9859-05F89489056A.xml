@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A8600C15-8D96-9445-9859-05F89489056A" name="FKArc_3">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>732F9B28-E13B-298D-67A1-19D620D2879A</table>
+<fkeys>
+<fkeyID>071A6BEE-54DC-679E-0549-E116E3EDB643</fkeyID>
+<fkeyID>83320685-C903-3AA9-CC13-E931AD5D43FA</fkeyID>
+<fkeyID>F2F55AA7-9774-F6B8-10D3-64675E64882D</fkeyID>
+</fkeys>
+</FKArc>

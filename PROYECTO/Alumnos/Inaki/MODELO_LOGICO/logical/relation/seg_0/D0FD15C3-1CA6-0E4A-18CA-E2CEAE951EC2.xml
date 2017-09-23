@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PR_TIENE_RP" directorySegmentName="seg_0" id="D0FD15C3-1CA6-0E4A-18CA-E2CEAE951EC2">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:55:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<sourcePk>0CF84382-B98E-111D-29DE-1657117F664A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF687B4C-744C-6DB2-D9A7-89C93ACFAA42</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E0EC0B10-07A5-F714-0417-D0CB79E658E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

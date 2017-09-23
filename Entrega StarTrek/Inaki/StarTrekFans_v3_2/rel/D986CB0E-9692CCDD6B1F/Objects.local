@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="976EF8C5-1F16-C65D-31B1-E53750FE08CD" name="Actores" seqName="seg_0"/>
+   <object objectType="Table" objectID="9E60A75E-3623-41B3-72C9-914694914682" name="Aparece" seqName="seg_0"/>
+   <object objectType="Table" objectID="0E8FEAD0-359F-7F09-18C5-5ED728C18451" name="Capitulos" seqName="seg_0"/>
+   <object objectType="Table" objectID="11D93542-5849-9452-550D-94A0BE49D39F" name="Es" seqName="seg_0"/>
+   <object objectType="Table" objectID="08C11160-0C27-28CA-A03A-F77D5C3E31B9" name="Humano" seqName="seg_0"/>
+   <object objectType="Table" objectID="5E8C76C8-A563-6A40-BEE0-FE755338DFE9" name="Klingon" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D74F858-3406-F710-5484-DDF43A5148B1" name="Lanzadera" seqName="seg_0"/>
+   <object objectType="Table" objectID="633B8567-D962-F160-D419-CD9C4B31992C" name="Nacionalidad" seqName="seg_0"/>
+   <object objectType="Table" objectID="9A19C39B-154D-863D-1B2B-5615F2B82DA8" name="Nave" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A16C70A-6AAC-2478-3646-970203886931" name="Participan" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D8AE758-A236-6151-EBF3-E8B102FAD349" name="Peliculas" seqName="seg_0"/>
+   <object objectType="Table" objectID="732F9B28-E13B-298D-67A1-19D620D2879A" name="Personajes" seqName="seg_0"/>
+   <object objectType="Table" objectID="DCA0EF01-4BD7-A95B-303A-49DB1F9FBD72" name="Planetas" seqName="seg_0"/>
+   <object objectType="Table" objectID="805FB6D2-9FD4-FE67-15EF-B6E77D2294C0" name="Viajes" seqName="seg_0"/>
+   <object objectType="Table" objectID="A0926229-2A55-C944-4986-2A8EA1295EB5" name="Visita" seqName="seg_0"/>
+   <object objectType="Table" objectID="48EE6BEE-04C6-1FBD-AE63-32380AA7CADE" name="Vulcano" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6E1EB939-0BC3-8AEA-D54E-4A5FCC9D3F11" name="Actores_Personajes_FK" seqName="seg_0" containerID="976EF8C5-1F16-C65D-31B1-E53750FE08CD" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="3758458A-C8A4-B207-908A-B86CF6069EA9" name="FK_ASS_23" seqName="seg_0" containerID="9E60A75E-3623-41B3-72C9-914694914682" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="D714D075-9F97-3976-576B-299AEB98006D" name="FK_ASS_24" seqName="seg_0" containerID="9E60A75E-3623-41B3-72C9-914694914682" refContainerID="1D8AE758-A236-6151-EBF3-E8B102FAD349"/>
+   <object objectType="FKIndexAssociation" objectID="8FED410A-BFB5-3AC5-3EE0-2476FFCCCAFE" name="FK_ASS_26" seqName="seg_0" containerID="11D93542-5849-9452-550D-94A0BE49D39F" refContainerID="633B8567-D962-F160-D419-CD9C4B31992C"/>
+   <object objectType="FKIndexAssociation" objectID="56D0B949-420E-653A-1815-993B9163CA24" name="FK_ASS_27" seqName="seg_0" containerID="11D93542-5849-9452-550D-94A0BE49D39F" refContainerID="976EF8C5-1F16-C65D-31B1-E53750FE08CD"/>
+   <object objectType="FKIndexAssociation" objectID="F1E8CB8F-6D12-D9D0-7237-5D4FA5C31BA1" name="FK_ASS_30" seqName="seg_0" containerID="3A16C70A-6AAC-2478-3646-970203886931" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="E7D8F897-B8B1-97CF-F97B-8778EBFE48D4" name="FK_ASS_31" seqName="seg_0" containerID="3A16C70A-6AAC-2478-3646-970203886931" refContainerID="0E8FEAD0-359F-7F09-18C5-5ED728C18451"/>
+   <object objectType="FKIndexAssociation" objectID="97F8ECBD-23BE-782F-65BF-906BA2F39BC5" name="FK_ASS_33" seqName="seg_0" containerID="805FB6D2-9FD4-FE67-15EF-B6E77D2294C0" refContainerID="DCA0EF01-4BD7-A95B-303A-49DB1F9FBD72"/>
+   <object objectType="FKIndexAssociation" objectID="1072D3DF-0B36-FAA8-004F-1CA3E84CB05F" name="FK_ASS_34" seqName="seg_0" containerID="805FB6D2-9FD4-FE67-15EF-B6E77D2294C0" refContainerID="9A19C39B-154D-863D-1B2B-5615F2B82DA8"/>
+   <object objectType="FKIndexAssociation" objectID="660C480C-0559-D7BF-58B4-FB5BF39D0D9A" name="FK_ASS_35" seqName="seg_0" containerID="A0926229-2A55-C944-4986-2A8EA1295EB5" refContainerID="0E8FEAD0-359F-7F09-18C5-5ED728C18451"/>
+   <object objectType="FKIndexAssociation" objectID="B64E0FBC-B166-CB19-7D7C-F91F10229BE6" name="FK_ASS_36" seqName="seg_0" containerID="A0926229-2A55-C944-4986-2A8EA1295EB5" refContainerID="DCA0EF01-4BD7-A95B-303A-49DB1F9FBD72"/>
+   <object objectType="FKIndexAssociation" objectID="071A6BEE-54DC-679E-0549-E116E3EDB643" name="Humano_Personajes_FK" seqName="seg_0" containerID="08C11160-0C27-28CA-A03A-F77D5C3E31B9" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="F2F55AA7-9774-F6B8-10D3-64675E64882D" name="Klingon_Personajes_FK" seqName="seg_0" containerID="5E8C76C8-A563-6A40-BEE0-FE755338DFE9" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="E6E346D0-35BC-5C8A-886E-6C02C7516DAD" name="Lanzadera_Nave_FK" seqName="seg_0" containerID="1D74F858-3406-F710-5484-DDF43A5148B1" refContainerID="9A19C39B-154D-863D-1B2B-5615F2B82DA8"/>
+   <object objectType="FKIndexAssociation" objectID="6265BD87-E4B2-F22F-E4D5-7940E41EEEB5" name="Peliculas_Personajes_FK" seqName="seg_0" containerID="1D8AE758-A236-6151-EBF3-E8B102FAD349" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="FE863438-1664-687B-C00D-5F6CB8E63427" name="Personajes_Actores_FK" seqName="seg_0" containerID="732F9B28-E13B-298D-67A1-19D620D2879A" refContainerID="976EF8C5-1F16-C65D-31B1-E53750FE08CD"/>
+   <object objectType="FKIndexAssociation" objectID="03F2FE6C-4CFF-6606-3C2F-9F9F53DE5FCC" name="Personajes_Personajes_FK" seqName="seg_0" containerID="732F9B28-E13B-298D-67A1-19D620D2879A" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKIndexAssociation" objectID="83320685-C903-3AA9-CC13-E931AD5D43FA" name="Vulcano_Personajes_FK" seqName="seg_0" containerID="48EE6BEE-04C6-1FBD-AE63-32380AA7CADE" refContainerID="732F9B28-E13B-298D-67A1-19D620D2879A"/>
+   <object objectType="FKArc" objectID="A8600C15-8D96-9445-9859-05F89489056A" name="FKArc_3" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

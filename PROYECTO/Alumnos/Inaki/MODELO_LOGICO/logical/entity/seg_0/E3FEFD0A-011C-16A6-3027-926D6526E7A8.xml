@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3FEFD0A-011C-16A6-3027-926D6526E7A8" name="CATEGORIAS">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:47:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CAT" id="10737055-0E48-AD16-01FE-1E335A20D4F7">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:48:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CAT" id="1FB2B42D-C19F-4C0E-6FE6-51D9D805810E">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:48:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6AC4B689-E70B-11E8-0F64-6861E105C483" name="CATEGORIAS PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:48:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10737055-0E48-AD16-01FE-1E335A20D4F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="DACA12A8-BF4B-2CC0-31AA-9A90BA95B23D">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 18:40:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3</ownerDesignName>
+<engineerTo>
+<item key="D986CB0E-2EC9-34F0-83AC-9692CCDD6B1F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>D126EDA7-C146-D617-6D1A-0AC7CE36661A</sourceEntity>
+<targetEntity>D933AAD3-D2EB-AFCF-8F51-B481E7D577C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Depende de &quot;&quot; en graduación militar" directorySegmentName="seg_0" id="18F4B595-6E8F-5844-F959-A055D304EB53">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-10 20:36:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<engineerTo>
+<item key="D986CB0E-2EC9-34F0-83AC-9692CCDD6B1F" value="true"/>
+</engineerTo>
+<targetPk>6CDD6DF5-1E29-24F5-E6B7-9B1D249FA253</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D126EDA7-C146-D617-6D1A-0AC7CE36661A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D126EDA7-C146-D617-6D1A-0AC7CE36661A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

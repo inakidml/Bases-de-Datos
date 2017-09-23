@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7897531C-9BE6-6228-38D1-4577468DC828" name="RESPUESTAS">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>E0EC0B10-07A5-F714-0417-D0CB79E658E0</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RP" id="471323FE-D83E-2DB1-1527-FDC2DEFE7EAA">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>E547C483-DFED-BA65-EE5A-4B111566FB9B</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXTO_RP" id="E40677B7-CC9A-C16A-1640-08DB8625DA1C">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>4D4EC81E-5251-1A79-9664-834D5ACD319C</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PR" id="BCCF5929-913A-FAD9-7C93-B6F5E676DEDA">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>F87E59B8-9F69-A9EB-DACA-84223B2BBDB4</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREGUNTAS_ID_PR" id="19A39908-86E0-5A34-C8CD-47FE7559C4A5">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>9DFB0AD2-B82B-3C65-589A-B3FB4836A9B1</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C729391-FCD1-29B8-A3A8-40427EBA4757" referredColumn="4329E71C-C60E-8320-D44D-4B512856CF10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D03DE3-C59F-AC35-D981-F9B7EAC1C8A2" name="RESPUESTAS_PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>B05C8D90-E0FE-5AAB-B936-CB078D903EF4</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="471323FE-D83E-2DB1-1527-FDC2DEFE7EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="503B6656-C954-CC9E-00C4-2750FA9F706F" name="RESPUESTAS_PREGUNTAS_FK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>D0FD15C3-1CA6-0E4A-18CA-E2CEAE951EC2</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19A39908-86E0-5A34-C8CD-47FE7559C4A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

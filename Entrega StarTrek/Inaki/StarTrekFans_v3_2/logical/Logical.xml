@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="73177274-056C-3296-C7FB-D02427B955DD" mainViewID="958A1FA1-551A-58F9-6287-65902CF310D1">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-10 20:13:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

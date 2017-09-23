@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="StarTrekFans_v3_2" id="91E0B5A7-8D01-3DEB-EF9B-52AEF27FE537" version="3.5">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-10 20:13:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>91E0B5A7-8D01-3DEB-EF9B-52AEF27FE537</designId>
+</OSDM_Design>

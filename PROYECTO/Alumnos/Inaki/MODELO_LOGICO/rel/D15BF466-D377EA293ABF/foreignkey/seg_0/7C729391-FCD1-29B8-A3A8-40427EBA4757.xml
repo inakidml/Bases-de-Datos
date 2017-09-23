@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C729391-FCD1-29B8-A3A8-40427EBA4757" containerWithKeyObject="7897531C-9BE6-6228-38D1-4577468DC828" localFKIndex="503B6656-C954-CC9E-00C4-2750FA9F706F" name="RESPUESTAS_PREGUNTAS_FK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-10 17:34:33 UTC</createdTime>
+<generatorID>D0FD15C3-1CA6-0E4A-18CA-E2CEAE951EC2</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B1407103-94C3-7C82-B516-34030D47AC59</referredTableID>
+<keyObject>6223C1C7-2914-FE75-C8AA-D85843A0F056</keyObject>
+<referredKeyID>6223C1C7-2914-FE75-C8AA-D85843A0F056</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

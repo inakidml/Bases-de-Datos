@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="2719AF7A-213D-C569-B762-00C5995444C6">
+<createdBy>7fprog02</createdBy>
+<modifiedBy>7fprog02</modifiedBy>
+<createdTime>2016-05-05 19:36:44 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DF687B4C-744C-6DB2-D9A7-89C93ACFAA42" otype="Entity" vid="373F0CC0-2AC2-98F9-D59D-5EA7D8C0BBE7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="447" y="162" width="324" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E0EC0B10-07A5-F714-0417-D0CB79E658E0" otype="Entity" vid="25AB6107-3D77-A8AA-35A9-2D88D1C5D24A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="831" y="166" width="320" height="121"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E3FEFD0A-011C-16A6-3027-926D6526E7A8" otype="Entity" vid="ADD09C6A-60B7-DB3F-3C4A-34247A371CF8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="106" y="160" width="225" height="123"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5B88067F-1F13-EAD5-F353-9744A746BA51" otype="Relation" vid_source="ADD09C6A-60B7-DB3F-3C4A-34247A371CF8" vid_target="373F0CC0-2AC2-98F9-D59D-5EA7D8C0BBE7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="331" y="222"/>
+<point x="447" y="222"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D0FD15C3-1CA6-0E4A-18CA-E2CEAE951EC2" otype="Relation" vid_source="373F0CC0-2AC2-98F9-D59D-5EA7D8C0BBE7" vid_target="25AB6107-3D77-A8AA-35A9-2D88D1C5D24A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="771" y="225"/>
+<point x="831" y="225"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

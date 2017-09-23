@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0EC0B10-07A5-F714-0417-D0CB79E658E0" name="RESPUESTAS">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:50:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_RP" id="E547C483-DFED-BA65-EE5A-4B111566FB9B">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:50:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEXTO_RP" id="4D4EC81E-5251-1A79-9664-834D5ACD319C">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:51:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR_PR" id="F87E59B8-9F69-A9EB-DACA-84223B2BBDB4">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:51:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PR" id="9DFB0AD2-B82B-3C65-589A-B3FB4836A9B1">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:55:33 UTC</createdTime>
+<generatorID>D0FD15C3-1CA6-0E4A-18CA-E2CEAE951EC2</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<referedAttribute>36699774-8538-D05A-E8B2-D051F7536611</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B05C8D90-E0FE-5AAB-B936-CB078D903EF4" name="RESPUESTAS PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:50:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E547C483-DFED-BA65-EE5A-4B111566FB9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

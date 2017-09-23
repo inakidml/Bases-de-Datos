@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PR_PERTENECE_CAT" directorySegmentName="seg_0" id="5B88067F-1F13-EAD5-F353-9744A746BA51">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:52:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<sourcePk>6AC4B689-E70B-11E8-0F64-6861E105C483</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3FEFD0A-011C-16A6-3027-926D6526E7A8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF687B4C-744C-6DB2-D9A7-89C93ACFAA42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

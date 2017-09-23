@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E60A75E-3623-41B3-72C9-914694914682" name="Aparece">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Personajes_Nombre" id="D3AB980B-F6FE-60B5-8AD0-850E50D10AB4">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3758458A-C8A4-B207-908A-B86CF6069EA9" referredColumn="49DB9C04-BA24-3ACE-9C70-0EE22F89EAE9"/>
+</associations>
+</Column>
+<Column name="Peliculas_Codigo" id="72C03471-6B8F-2F3E-EC40-F91641D7CB2C">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D714D075-9F97-3976-576B-299AEB98006D" referredColumn="49FBF623-C843-D4F7-4BE0-F17075DB9EF4"/>
+</associations>
+</Column>
+<Column name="Peliculas_Nombre1" id="C555FE20-A2BF-1DC9-8D4A-502F0EB75977">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D714D075-9F97-3976-576B-299AEB98006D" referredColumn="E1108B0A-5CEF-DD1B-6A80-36EBFA6F9D1C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B13A3E9-4E95-B471-EE10-D6990ED650C7" name="Aparece_PK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AB980B-F6FE-60B5-8AD0-850E50D10AB4"/>
+<colUsage columnID="72C03471-6B8F-2F3E-EC40-F91641D7CB2C"/>
+<colUsage columnID="C555FE20-A2BF-1DC9-8D4A-502F0EB75977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ABA60EB-1525-0821-3E53-91E0AF08EDD6" name="FK_ASS_23">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>504DD461-D880-EA71-2DBD-52979A561E42</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3AB980B-F6FE-60B5-8AD0-850E50D10AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64470A82-7D5F-5A46-3825-3D23BD74CA9C" name="FK_ASS_24">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>504DD461-D880-EA71-2DBD-52979A561E42</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C03471-6B8F-2F3E-EC40-F91641D7CB2C"/>
+<colUsage columnID="C555FE20-A2BF-1DC9-8D4A-502F0EB75977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO_LOGICO" id="40C6015A-30A7-F3D6-ED74-EBE4B65AC7C7" version="3.5">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:23:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>40C6015A-30A7-F3D6-ED74-EBE4B65AC7C7</designId>
+</OSDM_Design>

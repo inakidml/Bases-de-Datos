@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF687B4C-744C-6DB2-D9A7-89C93ACFAA42" name="PREGUNTAS">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:49:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PR" id="36699774-8538-D05A-E8B2-D051F7536611">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:49:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEXTO_PR" id="18953933-7A54-7274-D0D6-8050359AEC0F">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:49:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CAT" id="F0F825AA-6A04-EFD0-B133-1CB16876EA40">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:53:54 UTC</createdTime>
+<generatorID>5B88067F-1F13-EAD5-F353-9744A746BA51</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<referedAttribute>10737055-0E48-AD16-01FE-1E335A20D4F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CF84382-B98E-111D-29DE-1657117F664A" name="PREGUNTAS PK">
+<createdBy>7fprog02</createdBy>
+<createdTime>2016-05-05 19:52:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="AD167DF8-92C1-7372-256D-3A8D8EFBB1B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36699774-8538-D05A-E8B2-D051F7536611</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

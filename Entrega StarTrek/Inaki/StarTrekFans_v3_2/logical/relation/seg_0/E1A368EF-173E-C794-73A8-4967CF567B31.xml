@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tiene" directorySegmentName="seg_0" id="E1A368EF-173E-C794-73A8-4967CF567B31">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<engineerTo>
+<item key="D986CB0E-2EC9-34F0-83AC-9692CCDD6B1F" value="true"/>
+</engineerTo>
+<sourcePk>BCD6021B-7219-A4A9-CA96-7F74ADA6ED03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AFB4FB6D-19A2-A7E6-3F55-E6CE2D20C814</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3592C5B7-E429-400D-89B6-8381A155EEFF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

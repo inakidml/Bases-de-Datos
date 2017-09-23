@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Es" directorySegmentName="seg_0" id="9523C0E8-A986-FA38-3A7E-73EB3FD2084A">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-10 20:47:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<engineerTo>
+<item key="D986CB0E-2EC9-34F0-83AC-9692CCDD6B1F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B834AD81-1910-978F-19B0-95127853AD3F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF5F81E7-EB13-504F-5E44-4C54FF975EE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Interpreta" directorySegmentName="seg_0" id="DA8ACFBC-8AEF-86A2-25C7-C400DCB46071">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-10 20:18:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<engineerTo>
+<item key="D986CB0E-2EC9-34F0-83AC-9692CCDD6B1F" value="true"/>
+</engineerTo>
+<sourcePk>43D93F9E-4EF7-1D31-47CC-6FAB8A2B3324</sourcePk>
+<targetPk>6CDD6DF5-1E29-24F5-E6B7-9B1D249FA253</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF5F81E7-EB13-504F-5E44-4C54FF975EE5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D126EDA7-C146-D617-6D1A-0AC7CE36661A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

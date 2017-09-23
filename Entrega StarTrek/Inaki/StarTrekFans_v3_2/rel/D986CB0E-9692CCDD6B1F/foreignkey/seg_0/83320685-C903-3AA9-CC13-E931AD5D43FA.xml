@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83320685-C903-3AA9-CC13-E931AD5D43FA" containerWithKeyObject="48EE6BEE-04C6-1FBD-AE63-32380AA7CADE" localFKIndex="A3BECBCE-4238-AB65-3172-9634E1D35916" name="Vulcano_Personajes_FK">
+<createdBy>7fbd02</createdBy>
+<createdTime>2015-11-12 19:53:16 UTC</createdTime>
+<generatorID>8851699D-50BE-0FA8-D706-7F3527B75072</generatorID>
+<ownerDesignName>StarTrekFans_v3_2</ownerDesignName>
+<arc>A8600C15-8D96-9445-9859-05F89489056A</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>732F9B28-E13B-298D-67A1-19D620D2879A</referredTableID>
+<keyObject>DA99C590-11A7-1FE5-818E-7072321E7A1F</keyObject>
+<referredKeyID>DA99C590-11A7-1FE5-818E-7072321E7A1F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
